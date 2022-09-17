@@ -12,7 +12,7 @@ public class Main {
         System.out.println("\nSkapat Array med " + PointsAnalyzer.amountOfPointsInArray(points) + " punkter\n");
 
         // Printa ut negativa punkter eller punkt till terminalen
-        Point[] negatives = PointsAnalyzer.getNegatives(points);
+        Point[] negatives = PointsAnalyzer.getNegativesArray(points);
         System.out.println("Det finns totalt " + PointsAnalyzer.amountOfPointsInArray(negatives) + " Negativa punkter i denna simulering\n");
         PointsAnalyzer.printPointArray(negatives);
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class PointsAnalyzer {
 
-    public static Point[] getNegatives(Point[] totalPoints) {
+    public static Point[] getNegativesArray(Point[] totalPoints) {
 
         // Öppnar en ström på TOTALA points array, filtrerar och leta bara efter negativa punkter
         // sparar dem till en array med dynamisk size på hur många de blev (läs toArray funktion för mer info)
