@@ -13,7 +13,7 @@ public class Main {
 
         // Printa ut negativa punkter eller punkt till terminalen
         Point[] negatives = PointsAnalyzer.getNegatives(points);
-        System.out.println("Det finns totalt " + negatives.length + " Negativa punkter i denna simulering\n");
+        System.out.println("Det finns totalt " + PointsAnalyzer.amountOfPointsInArray(negatives) + " Negativa punkter i denna simulering\n");
         PointsAnalyzer.printPointArray(negatives);
 
         // Skriv ner negativa punkter eller punkt till textfil, negatives.txt
