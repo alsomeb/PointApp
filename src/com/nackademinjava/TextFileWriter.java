@@ -19,5 +19,8 @@ public class TextFileWriter {
         writer.println("Totalt: " + amountOfNegs + " st");
 
         writer.close();
+
+        // Files.write(Path.of(fileName), "Hejsan".getBytes()); kan ta in en Iterable (array, lista, HM) ONE LINER
+
     }
 }

@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
-        // Övning 15.4 i Java boken fast omgjord till roligare övning på mitt sätt
+        // Övning 15.4 i Java boken fast omgjord till roligare övning
 
         Point[] points = PointFactory.createArrayWithPoints(100);
         System.out.println("\nSkapat Array med " + PointsAnalyzer.amountOfPointsInArray(points) + " punkter\n");
